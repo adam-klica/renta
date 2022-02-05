@@ -1,0 +1,35 @@
+.active {
+  color: white;
+}
+
+.passive {
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.text {
+  transition: all 0.3s ease-in-out;
+}
+.text:hover {
+  color: white;
+  transform: scale(1.1);
+}
+.dugmePrijava {
+  transition: all 0.3s ease-in-out;
+  color: white !important;
+}
+.dugmePrijava:hover {
+  color: black !important;
+}
+.voziloBox {
+  transition: all 0.3s ease-in-out;
+}
+.voziloBox:hover {
+  transform: scale(1.02);
+  -webkit-box-shadow: 0px 0px 25px 7px #000000;
+  box-shadow: 0px 0px 25px 7px #000000;
+}
